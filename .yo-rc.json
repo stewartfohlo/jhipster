@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.jhipster.to_do_app",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.2.0",
+    "applicationType": "monolith",
+    "baseName": "TO_Do_App",
+    "packageName": "org.jhipster.to_do_app",
+    "packageFolder": "org/jhipster/to_do_app",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MjNmN2I3ZGMxZGRmNmUyNWQ1MzM4OTkwNWZlNWY2Yzg1OWYxNmFkNmE5N2Y3Mzg3NjVkY2M1ZDZkMmU0OTNjZDY3NTcyNjc3NjY3ZTdiMjFiMmMzNTcyNjFhOTk1MzdhNmFiZWRmY2U4MjQ2MDcwMDgwMGE3OGIyZmM1YmZmYTg=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "it"],
+    "blueprints": []
+  }
+}

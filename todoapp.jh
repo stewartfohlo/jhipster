@@ -1,0 +1,22 @@
+entity Task {
+  title String required,
+  description TextBlob required,
+  due Instant required
+}
+
+entity Category {
+  name String required minlength(3),
+  Description String required minlength(2)
+}
+
+entity Status {
+  name String required minlength(2)
+}
+
+relationship ManyToOne {
+  Category{user(login)} to User,
+  Task{Category(name)} to Category
+  Task{Status(name)} to Status{Task}
+}
+
+paginate Task, Status with pagination
